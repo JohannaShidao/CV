@@ -1,6 +1,7 @@
 /************************** tag selector ***************************/
 body{
-    background-color:#F0EBCE
+    background-color:#F0EBCE;
+    font-family:"Open Sans" sans-serif;
   }
 hr{
     border-style: dotted none none;
@@ -8,14 +9,41 @@ hr{
     border-color:#AA8B56;
     border-width: 10px;
     margin:auto;
+    margin-top: 40px;
+    margin-bottom:40px;
     width: 5%;
     
   }
 h2,h3{
     color: #4E6C50;
+    margin: auto;
+    margin-bottom: 20px;
+}
+img{
+   margin: auto;
+   display: inline-block;
+   max-width: 100%;
+   height: auto;
 }
 
 p{
     color:grey
 }
-/************************** class selector ***************************/
+
+/************************** 宝丽来图片部分 ***************************/
+div.col-md-6{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+  width: 450px;
+  display: inline-block;
+}
+div.introduction{
+  text-align: center;
+  padding: 10px 20px;
+  font-size: large;
+}
+
+.container{
+  text-align: center;
+}
